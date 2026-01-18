@@ -1,0 +1,14 @@
+Usman Gani Ahmed for gdg cybersecurity
+
+Solution for ctf
+part 1 
+open app.py and notice the secret key is probably in base 64 and then try to use decode function as shown in the example to decode the hint
+after that I tried to see through the git files which are hidden files and saw a uncommited change with a weird commit msg 
+found part 1 of flag gdg{sw1ss_ and the api key :dont_redeem_it 
+also noticed that the api key changed later to fake_key_123456
+I did notice the hidden Cyrillic and latin characters in xotwod file but could not crack what I assume to be SNOW style message due to the wrong key 
+I also notice that the decoy file may have also hidden some key but I couldn’t find it
+ctf 3:
+I tried using automated scanning and it only cam up with a a small part gg1ol}
+I was unfortunately unable to open the other vmbox file for some reason
+
